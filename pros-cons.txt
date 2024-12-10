@@ -1,0 +1,11 @@
+Pros of the Database Structure -
+
+1. I have made 2 separate tables for team names and match details to reduce data redundancy.
+2. I have used foreign keys to link Matches and Teams table, which makes valid data relationships.
+3. I have used if statements that checks whether the data already exists, cause without them the data will keep on getting added whenever the website refreshes and insertData() function runs.
+
+Cons of the Database Structure -
+
+1. It is a little difficult to understand query writing cause of Dependency on team_id.
+2. This project is not good for large scale data due to manual input.
+3. It will be very complicated to change team IDs due to dependency on them.
